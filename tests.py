@@ -47,3 +47,6 @@ def test_triangulo_retangulo_get_catetos():
     assert triangulo_retangulo.get_menor_cateto() == menor_cateto
     assert triangulo_retangulo.get_maior_cateto() == maior_cateto
     assert triangulo_retangulo.is_triangulo_retangulo() == True
+
+
+#  Para executar: pytest tests.py
